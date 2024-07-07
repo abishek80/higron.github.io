@@ -71,6 +71,10 @@ a {
   scroll-margin-top: 30px;
 }
 
+.scroll-margin-top-50px {
+  scroll-margin-top: 50px;
+}
+
 .scroll-margin-top-100px {
   scroll-margin-top: 100px;
 }
@@ -226,7 +230,7 @@ a {
   transition: ease-in-out 0.3s all;
 }
 
-.serve-card:hover .serve-icon::before {
+.serve-card .serve-icon::before {
   left: 0;
   top: 0;
   right: 0;
