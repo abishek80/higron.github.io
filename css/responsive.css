@@ -1,0 +1,55 @@
+@media screen and (max-width: 597PX) {
+    .banner-text {
+        font-size: 35px !important;
+        line-height: 50px;
+    }
+
+    .banner-subtext {
+        font-size: 16px !important;
+        line-height: 30px;
+    }
+
+    .logo-img {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .w-lg-50 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner-padding {
+        padding: 50px 0px 75px 0px;
+    }
+
+    .space-section {
+        padding: 60px 0;
+    }
+
+    .w-lg-50 {
+        width: 75%;
+    }
+
+    .banner-text {
+        font-size: 45px;
+    }
+
+    .banner-subtext {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .w-lg-75 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .nav-item .nav-link {
+        font-size: 16px;
+    }
+}

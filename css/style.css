@@ -1,0 +1,405 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c2c2c2;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+a,
+li,
+ul,
+ol,
+select,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+select:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  box-shadow: 0px 0px 0px 0px transparent !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.background-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.h-75vh {
+  height: 75vh;
+}
+
+.scroll-margin-top {
+  scroll-margin-top: 30px;
+}
+
+.scroll-margin-top-100px {
+  scroll-margin-top: 100px;
+}
+
+.scroll-margin-top-150px {
+  scroll-margin-top: 150px;
+}
+
+.scroll-margin-top-300px {
+  scroll-margin-top: 300px;
+}
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 120px;
+  right: 35px;
+  background-color: #202327;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+}
+
+.close-button {
+  font-size: 10px;
+  height: 10px !important;
+  width: 10px !important;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+}
+
+.bg-overlay {
+  position: relative;
+}
+
+.bg-overlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 15px;
+}
+
+.logo-img {
+  width: 100%;
+  height: 40px;
+  object-fit: contain;
+}
+
+.nav-item .nav-link {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.banner-text {
+  font-size: 52px;
+  letter-spacing: 2px;
+}
+
+.w-lg-50 {
+  width: 50%;
+}
+
+.w-lg-75 {
+  width: 75%;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.banner-padding {
+  padding: 75px 0px 100px 0px;
+}
+
+.about-img-rounded1 {
+  border-radius: 30px 30px 0px 30px;
+}
+
+.about-img-rounded2 {
+  border-radius: 30px 30px 30px 0px;
+}
+
+.about-img-rounded3 {
+  border-radius: 0px 30px 30px 30px;
+}
+
+.about-img-rounded4 {
+  border-radius: 30px 0px 30px 30px;
+}
+
+.about-img-1 {
+  width: 100%;
+  height: 350px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.about-img-2 {
+  width: 100%;
+  height: 250px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.space-section {
+  padding: 80px 0;
+}
+
+.bgside-bar-left:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 25px;
+  width: 25%;
+  background-color: rgb(17 155 66 / 35%);
+  border-radius: 25px;
+}
+
+.bgside-bar-right:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 25px;
+  width: 25%;
+  background-color: rgb(24 114 194 / 35%);
+  border-radius: 25px;
+}
+
+.serve-card .serve-icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  background-color: rgb(24 114 194 / 100%);
+  border-radius: 50%;
+  transition: ease-in-out 0.3s all;
+}
+
+.serve-card:hover .serve-icon::before {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.serve-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.serve-card:hover:after,
+.serve-card:hover:before {
+  background-color: rgb(17 155 66 / 100%);
+}
+
+.serve-card::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(17 155 66 / 65%);
+  border-radius: 18px;
+  transition: ease-in-out 0.3s all;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  left: -150px;
+  top: -60px;
+}
+
+.serve-card::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(17 155 66 / 65%);
+  border-radius: 18px;
+  transition: ease-in-out 0.3s all;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  right: -130px;
+  bottom: -70px;
+}
+
+.serve-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: rgb(24 114 194 / 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt--300px {
+  margin-top: -300px;
+}
+
+.pb-310px {
+  padding-bottom: 310px !important;
+}
+
+.client-logo {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.footer-logo {
+  width: 100%;
+  height: 50px;
+  object-fit: contain;
+}
+
+.img-hover::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: ease-in-out 0.3s all;
+}
+
+.img-hover:hover:before {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.clientimg-hover img,
+.card-hover img {
+  transition: ease-in-out 0.3s all;
+}
+
+.clientimg-hover:hover img,
+.card-hover:hover img {
+  transform: scale(1.1);
+}
+
+.vertical-border::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  border: 1px solid rgb(24 114 194 / 100%);
+  z-index: -1;
+}
+
+.head-hover:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 0;
+  transform: translate(-50%, 0);
+  height: 3px;
+  border-radius: 25px;
+  background-color: rgb(17 155 66 / 100%);
+  transition: ease-in-out 0.3s all;
+}
+
+.head-hover:hover:before {
+  right: 0;
+  transform: translate(-50%, 0);
+  width: 150px;
+}
+
+.serv-img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.choose-img {
+  width: 100%;
+  height: 70px;
+  object-fit: contain;
+}
+
+.certificate-img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.addHeaderClass {
+  opacity: 0;
+  display: none;
+  transition: ease-in-out 0.2s all;
+}
+
+.addHeaderClass.stickyHeader {
+  opacity: 1;
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 99;
+  padding: 15px;
+  box-shadow: 2px 2px 12px #adadad;
+}
+
+.addHeaderClass.stickyHeader .navbar.navbar-expand-lg {
+  padding: 0px !important;
+  box-shadow: 0px 0px 0px !important;
+  border: 0px solid transparent !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar-nav .nav-link:hover {
+  color: rgb(24 114 194 / 100%) !important;
+}
