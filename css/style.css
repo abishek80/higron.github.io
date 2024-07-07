@@ -407,3 +407,13 @@ a {
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link, .navbar-nav .nav-link:hover {
   color: rgb(24 114 194 / 100%) !important;
 }
+
+.fs-18px {
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.btn.btn-primary {
+  padding: 15px 25px;
+  font-size: 16px;
+}
